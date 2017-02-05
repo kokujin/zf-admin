@@ -1,0 +1,212 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ZF Admin template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/zf.admin.css">
+        <link rel="stylesheet" href="css/example.css">
+    </head>
+
+    <body data-whatinput="mouse">
+
+        <div id="off-canvas" class="off-canvas position-left" data-transition="overlap" data-off-canvas>
+        </div>
+
+        <div id="off-canvas-content" class="off-canvas-content" data-off-canvas-content>
+
+            <div id="top-bar"></div>
+
+            <div id="content-container" class="row expanded">
+                <div id="sidebar" class="medium-4 large-3 columns show-for-medium" data-sticky-container>
+                </div>
+
+                <div id="main" class="medium-8 large-9 columns">
+                  <div class="row">
+                    <div class="small-12 columns">
+                      <h1>ZF-Admin</h1>
+                    </div>
+                  </div>
+
+                    <!-- content start //-->
+                    <div class="row small-up-1 medium-up-2 page">
+                    <div class="column column-block">
+                      <h5>
+                          Example Activity Feed
+                      </h5>
+                        <div class="activity-feed">
+                            <div class="feed-item">
+                                <div class="date">Sep 25</div>
+                                <div class="text">Responded to need <a href="single-need.php">“Volunteer opportunity”</a></div>
+                            </div>
+                            <div class="feed-item">
+                                <div class="date">Sep 24</div>
+                                <div class="text">Added an interest “Volunteer Activities”</div>
+                            </div>
+                            <div class="feed-item">
+                                <div class="date">Sep 23</div>
+                                <div class="text">Joined the group <a href="single-group.php">“Boardsmanship Forum”</a></div>
+                            </div>
+                            <div class="feed-item">
+                                <div class="date">Sep 21</div>
+                                <div class="text">Responded to need <a href="single-need.php">“In-Kind Opportunity”</a></div>
+                            </div>
+                            <div class="feed-item">
+                                <div class="date">Sep 18</div>
+                                <div class="text">Created need <a href="single-need.php">“Volunteer Opportunity”</a></div>
+                            </div>
+                            <div class="feed-item">
+                                <div class="date">Sep 17</div>
+                                <div class="text">Attending the event <a href="single-event.php">“Some New Event”</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-block">
+                        <h5>
+                          Example Checklist
+                      </h5>
+                        <table class="unstriped">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input checked class="custom-no-label" type="checkbox" />
+                                    </td>
+                                    <td>
+                                        Show email address
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="custom-no-label" type="checkbox" />
+                                    </td>
+                                    <td>Allow emojis</td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="custom-no-label" type="checkbox" />
+                                    </td>
+                                    <td>
+                                        Disable smileys
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                    <!--End Row 1  -->
+                    <div class="row small-up-1 medium-up-2">
+                        <div class="column column-block">
+                            <form>
+                                <fieldset class="fieldset">
+                                    <legend>Example checkboxes with labels</legend>
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <label>Setting 1
+                                               <input id="checkbox1" class="custom" type="checkbox" data-labelauty="Sync data" />
+                                             </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <label>Setting 2
+                                               <input id="checkbox2" class="custom" type="checkbox" data-labelauty="Sync data" />
+                                             </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <label>Setting 3
+                                               <input id="checkbox3" class="custom" type="checkbox" data-labelauty="Sync data" />
+                                             </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="fieldset">
+                                    <legend>Example radio buttons with labels</legend>
+                                    <label for="radio1">
+                                      <input class="custom" type="radio" name="radios" value="1" id="radio1" data-labelauty="Setting 1">
+                                    </label>
+
+                                    <label for="radio2">
+                                      <input class="custom" type="radio" name="radios" value="2" id="radio2" data-labelauty="Setting 2">
+                                    </label>
+
+                                    <label for="radio3">
+                                      <input class="custom" type="radio" name="radios" value="3" id="radio3" data-labelauty="Setting 3">
+                                    </label>
+                                </fieldset>
+                            </form>
+                        </div>
+
+                        <div class="column column-block">
+                            <form>
+                                <fieldset class="fieldset">
+                                    <legend>Example radio buttons without labels</legend>
+                                    <label for="radio4">
+                                    Radio setting four
+                                    <input class="custom-no-label" type="radio" name="radios" value="1" id="radio4" data-labelauty="Setting 1">
+                                  </label>
+
+                                    <label for="radio5">
+                                    Radio setting five
+                                    <input class="custom-no-label" type="radio" name="radios" value="2" id="radio5" data-labelauty="Setting 2">
+                                  </label>
+
+                                    <label for="radio6">
+                                    Radio setting six
+                                    <input class="custom-no-label" type="radio" name="radios" value="3" id="radio6" data-labelauty="Setting 3">
+                                  </label>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- content end //-->
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+          <div class="row">
+            <div class="small-6 columns">
+              <ul class="menu">
+                  <li><a href="#">Link One</a></li>
+                  <li><a href="#">Link Two</a></li>
+                  <li><a href="#">Link THree</a></li>
+              </ul>
+            </div>
+            <div class="small-6 columns">
+              <p>
+                <ul class="menu align-right">
+                  <li class="menu-text">ZF-Admin 2017</li>
+              </ul>
+            </p>
+            </div>
+          </div>
+        </footer>
+
+        <div class="scroll-top-wrapper">
+            <span class="scroll-top-inner">
+             <i class="icon-chevron_up icon2x"></i>
+           </span>
+        </div>
+
+        <script src="js/zf.admin.js"></script>
+        <script src="js/dash2.js"></script>
+
+    </body>
+</html>

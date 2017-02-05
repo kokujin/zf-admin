@@ -1,0 +1,40 @@
+{
+  "name": "zf-admin",
+  "version": "1.0.0",
+  "description": "A Zurb Foundation admin theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Kokujinn@bitbucket.org/Kokujinn/zf-admin.git"
+  },
+  "keywords": [
+    "Admin",
+    "theme"
+  ],
+  "author": "kokujin",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Kokujinn/zf-admin#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^3.0.0",
+    "gulp-help": "^1.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-real-favicon": "^0.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-size": "^2.1.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.1",
+    "pump": "^1.0.2"
+  }
+}

@@ -1,0 +1,57 @@
+/* Sub nav */
+/* -------------------------------------------------------------------------- */
+.active {
+    background: #ccc;
+};
+/* Containers */
+/* -------------------------------------------------------------------------- */
+.off-canvas-close-container {
+    padding: rem-cal(2);
+}
+
+#content {
+    background-color: $lightSilver;
+}
+
+#off-canvas {
+  background-color: $lightSilver;
+  color: $lightBlack;
+
+  a {
+      color: $lightBlack;
+  }
+}
+
+#main {
+    background-color: $darkWhite;
+}
+
+#sidebar {
+    padding-top: 2rem;
+    color: $lightBlack;
+
+    a {
+        color: $lightBlack;
+    }
+}
+
+.page {
+    padding-top: 2rem;
+}
+
+#footer,
+footer {
+    color: $extraLightGray;
+    background-color: $lightBlack;
+}
+/* LABELAUTY  */
+/* -------------------------------------------------------------------------- */
+/* When Checked */
+input.labelauty:checked + label {
+    background-color: $extraLightBlack; //#3498db;
+    color: $darkWhite;
+}
+
+input.labelauty:checked:not([disabled]) + label:hover {
+    background-color: $extraLightSilver; //#72c5fd;
+}

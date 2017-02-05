@@ -1,0 +1,43 @@
+{
+  "name": "zf-admin",
+  "description": "A Zurb Foundation admin theme",
+  "main": "gulpfile.js",
+  "authors": [
+    "kokujin"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Admin",
+    "theme"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.3.0",
+    "jquery": "^3.1.1",
+    "mfglabs-iconset": "*",
+    "motion-ui": "^1.2.2",
+    "responsive-lightbox": "*",
+    "mods": "^0.4.2",
+    "chart.js": "^2.4.0",
+    "countUp.js": "^1.8.1",
+    "flatpickr": "^2.2.9",
+    "noty": "^2.3.11",
+    "sweetalert2": "^6.3.2",
+    "jquery-labelauty": "^1.1.0",
+    "fakerator": "^0.3.0",
+    "datatables.net": "^2.1.1",
+    "datatables.net-dt": "^3.2.2",
+    "jquery-load-template": "^1.5.10",
+    "datatables-responsive": "^2.1.1"
+  },
+  "resolutions": {
+    "jquery": "~2.2.0"
+  }
+}
