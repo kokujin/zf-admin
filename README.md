@@ -4,6 +4,8 @@
 ## Motivation
 I wanted a Zurb Foundation based template with just a minimum amount of features and a proper build system.
 
+![](assets/images/zf-admin-1.png)
+
 ## Features
 * Plugins: Datepickers, graphs, notifications e.t.c
 * Asset managememt using <a href="#"> Bower</a
