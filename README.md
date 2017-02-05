@@ -8,7 +8,7 @@ I wanted a Zurb Foundation based template with just a minimum amount of features
 
 ## Features
 * Plugins: Datepickers, graphs, notifications e.t.c
-* Asset managememt using <a href="#"> Bower</a
+* Asset managememt using <a href="#">Bower</a>
 * Build system using <a href="#"> Gulp</a></li>
 * Templating system using <a href="https://github.com/codepb/jquery-template"> Jquery.loadTemplate</a></li>
 
