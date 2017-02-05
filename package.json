@@ -2,21 +2,21 @@
   "name": "zf-admin",
   "version": "1.0.0",
   "description": "A Zurb Foundation admin theme",
-  "main": "gulpfile.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Kokujinn@bitbucket.org/Kokujinn/zf-admin.git"
+    "url": "https://github.com/kokujin/zf-admin.git"
   },
   "keywords": [
     "Admin",
     "theme"
   ],
   "author": "kokujin",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/Kokujinn/zf-admin#readme",
+  "license": "MIT",
+  "homepage": "https://github.com/kokujin/zf-admin",
   "devDependencies": {
     "babel-preset-es2015": "^6.18.0",
     "gulp": "^3.9.1",
@@ -28,6 +28,7 @@
     "gulp-help": "^1.6.1",
     "gulp-imagemin": "^3.1.1",
     "gulp-inject": "^4.2.0",
+    "gulp-load-plugins": "^1.5.0",
     "gulp-real-favicon": "^0.2.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.0.0",
