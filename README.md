@@ -1,5 +1,5 @@
 # zf-admin
- ZF-Admin is a simple starter template for building admin interfaces.
+ ZF-Admin is a simple starter template for building admin or dashboard interfaces.
 
 ## Motivation
 I wanted a Zurb Foundation based template with just a minimum amount of features and a proper build system.
@@ -16,7 +16,7 @@ I wanted a Zurb Foundation based template with just a minimum amount of features
 These features can be configured and are not mandatory.
 </p>
 <p>
-  Check out the example folder in the repository to see the plug-ins in use. Comment out the plug-ins you don't need to streamline your assets.
+  You can view the dashboard examples by changing intto the "examples" folder and running a server application like <a href="https://www.npmjs.com/package/http-server">http-server</a> or <a href="http://tapiov.net/live-server/">live-server</a>.
 </p>
 
 ## Usage
@@ -44,5 +44,24 @@ customize as you see fit. It just would not be as flexible.
 4. Notifications. <a href="https://github.com/needim/noty">Noty</a>
 5. Simple templating. <a href="https://github.com/codepb/jquery-template">jQuery.loadTemplate</a>
 6. Lightbox. <a href="https://github.com/duncanmcdougall/Responsive-Lightbox">Responsive-Lightbox</a>
-7. Alerts modal dialogs. <a href="https://github.com/limonte/sweetalert2">sweetalert2</a>
+7. Alerts and modal dialogs. <a href="https://github.com/limonte/sweetalert2">sweetalert2</a>
 8. Data tables. <a href="https://datatables.net/">datatables</a>
+
+## Available build tasks
+<p>
+Run "gulp help" to see a list of all the available build tasks:
+
+#### Main Tasks
+------------------------------
+    default
+    help
+
+#### Sub Tasks
+------------------------------
+    build-all
+    build-js
+    build-sass
+    copy-fonts
+    lint-js
+    prepare-default-images
+    prepare-example-assets
